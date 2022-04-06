@@ -16,21 +16,46 @@ También quiero agradecer a _"FR"_ por el gran apoyo y motivación que me dió e
 
 ### 📝 Pre-Requisitos ### 
 
-  * [Git](https://git-scm.com/) Lo usaremos para clonar el repositorio.
+No son necesarios todos los pre-requisitos acá mencionados, solamente con el que escojan instalarme.
+
+  * [git](https://git-scm.com/) Para clonar el repositorio mediante git.
+  * [gh](https://cli.github.com) Para clonar el repositorio mediante gh (cli de github).
+  * [npm](https://npmjs.com) Para clonar el repositorio mediante npm.
+
 
 - - -
 
-### 🔧 Instalación. 🔧 ### 
+### 🔧 Instalación ### 
 
-Diríjase al proyecto en que desea implementarme, abra su terminal y realice un:
+Diríjase al proyecto en que desea implementarme, abra su terminal y ejecute el comando correspondiente a la opcion que haya escogido en la seccion anterior:
+
+#### Git
 
 ``` sh
 git clone 'https://github.com/OWLjz18/IconeJz.git'
 ```
 
+O me pueden agregar como un submodulo a su proyecto.
+
+``` sh
+git submodule add 'https://github.com/OWLjz18/IconeJz.git'
+```
+
+#### Github CLI (gh)
+
+``` sh
+gh repo clone 'OWLjz18/IconeJz'
+```
+
+#### NPM
+
+``` sh
+npm install iconejz
+```
+
 - - -
 
-### 🔎 Uso. ### 
+### 🔎 Uso ### 
 
 Para comenzar deben enlazar una hoja de estilos y un script al archivo _HTML_ dónde me vayan a implementar, suponiendo que su archivo _HTML_ y yo estemos en la raíz de su proyecto, la ruta de los archivos a enlazar se verían de la siguiente forma:
 
@@ -40,7 +65,7 @@ Para comenzar deben enlazar una hoja de estilos y un script al archivo _HTML_ d�
 <script src="./IconeJz/src/iconejz.js"></script>
 ```
 
-**_Nota:_** El script puede ser enlazado sin problemas en el **HEAD** ya que este no necesita esperar a que se cargue por completo el **DOM**. (si me preguntan, esa sería mi recomendación)
+**_Nota:_** El script puede ser enlazado sin problemas en el **HEAD** ya que este no necesita esperar a que se cargue por completo el **DOM**. (si me preguntan, esa sería mi recomendación, además de agregarle el atributo _"async"_)
 
 Luego de tener ambos archivos enlazados proseguimos a escoger el ícono de nuestra elección que esté disponible en el archivo ["iconejz.txt"](./src/iconejz.txt) que se encuentra dentro de la carpeta **src** que contengo, ya que en él tendrán una lista con el nombre de todos los íconos disponibles y su respectivo código para que puedan copiar y pegar en su **HTML**, para el ejemplo escojamos el ícono de un menú hamburguesa, en este caso, el siguiente sería su código:
 
@@ -108,7 +133,7 @@ console.log(icono.version);
 
   * *__José Zambrano__* ([OWLjz18](https://github.com/OWLjz18)) => Creador del proyecto.
     * Correo electrónico => <owl.jz18@gmail.com>
-    * Instagram => [@owl.jz18](https://instagram.com/owl.jz18)
+    * Instagram => [@owljz18](https://instagram.com/owljz18)
 
 - - -
 
