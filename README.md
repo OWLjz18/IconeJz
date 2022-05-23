@@ -65,6 +65,14 @@ Para comenzar deben enlazar una hoja de estilos y un script al archivo _HTML_ d�
 <script src="./IconeJz/src/iconejz.js"></script>
 ```
 
+O en caso de instalarme mediante **npm** deberan enlazarlos así:
+
+``` html
+<link rel="stylesheet" href="/node_modules/iconejz/src/iconejz.css">
+
+<script src="/node_modules/iconejz/src/iconejz.js"></script>
+```
+
 **_Nota:_** El script puede ser enlazado sin problemas en el **HEAD** ya que este no necesita esperar a que se cargue por completo el **DOM**. (si me preguntan, esa sería mi recomendación, además de agregarle el atributo _"async"_)
 
 Luego de tener ambos archivos enlazados proseguimos a escoger el ícono de nuestra elección que esté disponible en el archivo ["iconejz.txt"](./src/iconejz.txt) que se encuentra dentro de la carpeta **src** que contengo, ya que en él tendrán una lista con el nombre de todos los íconos disponibles y su respectivo código para que puedan copiar y pegar en su **HTML**, para el ejemplo escojamos el ícono de un menú hamburguesa, en este caso, el siguiente sería su código:

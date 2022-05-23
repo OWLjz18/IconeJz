@@ -11,7 +11,7 @@
  * Seleciona la hoja de estilos con la cuál se conecta el archivo 'IconeJz/src/iconejz.css', para obtener su 'href' y crear una nueva hoja de estilos que se le agregará al shadowRoot de cada icono.
  * @type {HTMLLinkElement}
 */
-const IconeJzStyleSheet = document.querySelector('link[href$="IconeJz/src/iconejz.css"]'); 
+const IconeJzStyleSheet = document.querySelector('link[href$="iconejz.css"]'); 
 
 /**
  * Con esta clase creamos un customElement por cada llamada al metodo 'createIcon', al mismo tiempo que observa sus atributos y permite aplicarles estilos mediante ellos, además de poder cambiar un ícono por otro.
@@ -63,7 +63,7 @@ const IconeJz = class extends HTMLElement {
     this._objChangeIconejz = { status: false };
     
     Object.defineProperty(this, 'version', {
-      value: 'IconeJz v1.0.0',
+      value: 'IconeJz v1.0.1',
       writable: false,
       configurable: false
     });

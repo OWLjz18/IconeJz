@@ -1,6 +1,6 @@
 {
   "name": "iconejz",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sistema de iconos basado en HTML, CSS y JS",
   "main": "src/iconejz.css && src/iconejz.js",
   "scripts": {},
