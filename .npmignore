@@ -1,0 +1,4 @@
+docs/
+jsdoc.json
+.eslintignore
+.eslintrc.json
