@@ -1,7 +1,7 @@
 /**
  * @author OWLjz18 <owl.jz18@gmail.com>
- * @gratitude My Family | Leandro | FR | Jaspe.
- * @license MIT > https://github.com/OWLjz18/IconeJz/blob/main/LICENSE.md
+ * @gratitude GOD | My Family | Leandro | FR | Jaspe.
+ * @license MIT 
  * @see https://owljz18.github.io/IconeJzDoc
 */
 
@@ -9,256 +9,208 @@
 //  Arrows  //
 
 
-• Icon "Arrow Up" (jz-a-u):
-
-  <jz-a-u></jz-a-u>
-
-
-• Icon "Arrow Right" (jz-a-rg):
-
-  <jz-a-rg></jz-a-rg>
-
-
-• Icon "Arrow Down" (jz-a-d):
-
-  <jz-a-d></jz-a-d>
-
-
-• Icon "Arrow Left" (jz-a-lf):
-
-  <jz-a-lf></jz-a-lf>
+• Icon "Arrow Up":  
+ 
+  <icone-jz is="arrow-up"></icone-jz>
+ 
+• Icon "Arrow Right":
+ 
+  <icone-jz is="arrow-right"></icone-jz>
+ 
+• Icon "Arrow Down":
+ 
+  <icone-jz is="arrow-down"></icone-jz>
+ 
+• Icon "Arrow Left":
+ 
+  <icone-jz is="arrow-left"></icone-jz>
 
 
 //  Others  //
 
 
-• Icon "Youtube" (jz-yt):
-
-  <jz-yt></jz-yt>
-
-
-• Icon "Instagram" (jz-ig):
-
-  <jz-ig></jz-ig>
-
-
-• Icon "Menu" (jz-m):
-
-  <jz-m></jz-m>
-
-
-• Icon "Magnifying Glass" (jz-mg):
-
-  <jz-mg></jz-mg>
-
-
-• Icon "Check" (jz-ck):
-
-  <jz-ck></jz-ck>
-
-
-• Icon "X" (jz-x): 
-
-  <jz-x></jz-x>
-
-
-• Icon "Three Vertical Points" (jz-tvp):
-
-  <jz-tvp></jz-tvp>
-
-
-• Icon "Three Horizontal Points" (jz-thp):
-
-  <jz-thp></jz-thp>
-
-
-• Icon "Padlock" (jz-plk):
-
-  <jz-plk></jz-plk>
-
-
-• Icon "Open Lock" (jz-oplk):
-
-  <jz-oplk></jz-oplk>
-
-
-• Icon "Store Car" (jz-sc):
-
-  <jz-sc></jz-sc>
-
-
-• Icon "Location" (jz-lc):
-
-  <jz-lc></jz-lc>
-
-
-• Icon "User" (jz-us):
-
-  <jz-us></jz-us>
-
-
-• Icon "User New" (jz-usn):
-
-  <jz-usn></jz-sn>
-
-
-• Icon "Settings" (jz-stt):
-
-  <jz-stt></jz-stt>
-
-
-• Icon "Share" (jz-shr):
-
-  <jz-shr></jz-shr>
-
-
-• Icon "Home" (jz-hm):
-
-  <jz-hm></jz-hm>   
-
-
-• Icon "Star" (jz-str):
-
-  <jz-str></jz-str>
-
-
-• Icon "Warning" (jz-wng):
-
-  <jz-wng></jz-wng>
-
-
-• Icon "SMS" (jz-sms):
-
-  <jz-sms></jz-sms>
-
-
-• Icon "Camera" (jz-cam):
-
-  <jz-cam></jz-cam>
-
-
-• Icon "Plus" (jz-plus):
-
-  <jz-plus></jz-plus>
-
-
-• Icon "Minus" (jz-minus):
-
-  <jz-minus></jz-minus>
-
-
-• Icon "Download Complete" (jz-dwl-c):
-
-  <jz-dwl-c></jz-dwl-c>
-
-
-• Icon "Pause" (jz-pause):
-
-  <jz-pause></jz-pause>
-
-
-• Icon "Play" (jz-play):
-
-  <jz-play></jz-play>
-
-
-• Icon "Information" (jz-info):
-
-  <jz-info></jz-info>
-
-
-• Icon "Double Check" (jz-dbl-ck):
-
-  <jz-dbl-ck></jz-dbl-ck>    
-
-
-• Icon "Copy" (jz-copy):
-
-  <jz-copy></jz-copy>
-
-
-• Icon "Clipboard" (jz-clipboard): 
-
-  <jz-clipboard></jz-clipboard>
-
-
-• Icon "Previous" (jz-prev): 
-
-  <jz-prev></jz-prev>
-
-
-• Icon "Next" (jz-next): 
-
-  <jz-next></jz-next>
+• Icon "Youtube":
+ 
+  <icone-jz is="youtube"></icone-jz>
+ 
+• Icon "Instagram":
+ 
+  <icone-jz is="instagram"></icone-jz>
+ 
+• Icon "Menu":
+ 
+  <icone-jz is="menu"></icone-jz>
+ 
+• Icon "Magnifying Glass":
+ 
+  <icone-jz is="magnifying-glass"></icone-jz>
+ 
+• Icon "Check":
+ 
+  <icone-jz is="check"></icone-jz>
+ 
+• Icon "X": 
+ 
+  <icone-jz is="x"></icone-jz>
+ 
+• Icon "Three Vertical Points":
+ 
+  <icone-jz is="three-vertical-points"></icone-jz>
+ 
+• Icon "Three Horizontal Points":
+ 
+  <icone-jz is="three-horizontal-points"></icone-jz>
+ 
+• Icon "Padlock":
+ 
+  <icone-jz is="padlock"></icone-jz>
+ 
+• Icon "Open Lock":
+ 
+  <icone-jz is="open-lock"></icone-jz>
+ 
+• Icon "Store Car":
+ 
+  <icone-jz is="store-car"></icone-jz>
+ 
+• Icon "Location":
+ 
+  <icone-jz is="location"></icone-jz>
+ 
+• Icon "User":
+ 
+  <icone-jz is="user"></icone-jz>
+ 
+• Icon "New User":
+ 
+  <icone-jz is="new-user"></icone-jz>
+ 
+• Icon "Settings":
+ 
+  <icone-jz is="settings"></icone-jz>
+ 
+• Icon "Share":
+ 
+  <icone-jz is="share"></icone-jz>
+ 
+• Icon "Home":
+ 
+  <icone-jz is="home"></icone-jz>
+ 
+• Icon "Star":
+ 
+  <icone-jz is="star"></icone-jz>
+ 
+• Icon "Warning":
+ 
+  <icone-jz is="warning"></icone-jz>
+ 
+• Icon "SMS":
+ 
+  <icone-jz is="sms"></icone-jz>
+ 
+• Icon "Camera":
+ 
+  <icone-jz is="camera"></icone-jz>
+ 
+• Icon "Plus":
+ 
+  <icone-jz is="plus"></icone-jz>
+ 
+• Icon "Minus":
+ 
+  <icone-jz is="minus"></icone-jz>
+ 
+• Icon "Download Complete":
+ 
+  <icone-jz is="download-complete"></icone-jz>
+ 
+• Icon "Pause":
+ 
+  <icone-jz is="pause"></icone-jz>
+ 
+• Icon "Play":
+ 
+  <icone-jz is="play"></icone-jz>
+ 
+• Icon "Information":
+ 
+  <icone-jz is="information"></icone-jz>
+ 
+• Icon "Double Check":
+ 
+  <icone-jz is="double-check"></icone-jz>
+ 
+• Icon "Copy":
+ 
+  <icone-jz is="copy"></icone-jz>
+ 
+• Icon "Clipboard":
+ 
+  <icone-jz is="clipboard"></icone-jz>
+ 
+• Icon "Previous":
+ 
+  <icone-jz is="previous"></icone-jz>
+ 
+• Icon "Next":
+ 
+  <icone-jz is="next"></icone-jz> 
   
+• Icon "Download":
+ 
+  <icone-jz is="download"></icone-jz> 
   
-• Icon "Download" (jz-dwl):
-
-  <jz-dwl></jz-dwl>
+• Icon "Pencil":
+ 
+  <icone-jz is="pencil"></icone-jz>
+ 
+• Icon "Tack":
   
-  
-• Icon "Pencil" (jz-pcl):
-
-  <jz-pcl></jz-pcl>
-
-
-• Icon "Tack" (jz-tack):
-  
-  <jz-tack></jz-tack>
-
-
-• Icon "Paper Bin" (jz-ppb):
-
-  <jz-ppb></jz-ppb>
-
-
-• Icon "Github" (jz-github): 
-
-  <jz-github></jz-github>
-  
-
-• Icon "Git" (jz-git):
-
-  <jz-git></jz-git>
-
-
-• Icon "Shell" (jz-sh):
-
-  <jz-sh></jz-sh>
-  
-• Icon "HTML" (jz-html):
-
-  <jz-html></jz-html>
-
-
-• Icon "CSS" (jz-css):
-
-  <jz-css></jz-css>
-
-
-• Icon "JS" (jz-js):
-
-  <jz-js></jz-js>
-
-
-• Icon "Markdown" (jz-md):
-
-  <jz-md></jz-md>
-
-
-• Icon "Text" (jz-txt):
-
-  <jz-txt></jz-txt>
-
-
-• Icon "Heart" (jz-heart):
-
-  <jz-heart></jz-heart>
-
-
-• Icon "Email" (jz-email):
-
-  <jz-email></jz-email>
-
+  <icone-jz is="tack"></icone-jz>
+ 
+• Icon "Paper Bin":
+ 
+  <icone-jz is="paper-bin"></icone-jz>
+ 
+• Icon "Github":
+ 
+  <icone-jz is="github"></icone-jz> 
+ 
+• Icon "Git":
+ 
+  <icone-jz is="git"></icone-jz>
+ 
+• Icon "Shell":
+ 
+  <icone-jz is="shell"></icone-jz> 
+ 
+• Icon "HTML":
+ 
+  <icone-jz is="html"></icone-jz>
+ 
+• Icon "CSS":
+ 
+  <icone-jz is="css"></icone-jz>
+ 
+• Icon "Javascript":
+ 
+  <icone-jz is="javascript"></icone-jz>
+ 
+• Icon "Markdown":
+ 
+  <icone-jz is="markdown"></icone-jz>
+ 
+• Icon "Text":
+ 
+  <icone-jz is="text"></icone-jz>
+ 
+• Icon "Heart":
+ 
+  <icone-jz is="heart"></icone-jz>
+ 
+• Icon "Email":
+ 
+  <icone-jz is="email"></icone-jz>
 
 /*  End.  */
