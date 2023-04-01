@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>Home - Documentation</title>
+    
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav >
+    
+    
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="module-models_IconeJzError-IconeJzError.html">IconeJzError</a></li><li><a href="module-models_IconeJz-IconeJz.html">IconeJz</a><ul class='methods'><li data-type='method'><a href="module-models_IconeJz-IconeJz.html#.addIcon">addIcon</a></li><li data-type='method'><a href="module-models_IconeJz-IconeJz.html#.getIconNames">getIconNames</a></li><li data-type='method'><a href="module-models_IconeJz-IconeJz.html#.import">import</a></li><li data-type='method'><a href="module-models_IconeJz-IconeJz.html#.observedAttributes">observedAttributes</a></li><li data-type='method'><a href="module-models_IconeJz-IconeJz.html#._automaticExportParts#_automaticExportParts">_automaticExportParts</a></li><li data-type='method'><a href="module-models_IconeJz-IconeJz.html#._changeStyle#_changeStyle">_changeStyle</a></li><li data-type='method'><a href="module-models_IconeJz-IconeJz.html#._parseParentElement#_parseParentElement">_parseParentElement</a></li><li data-type='method'><a href="module-models_IconeJz-IconeJz.html#._readParts#_readParts">_readParts</a></li><li data-type='method'><a href="module-models_IconeJz-IconeJz.html#._recalculateBorderWidth#_recalculateBorderWidth">_recalculateBorderWidth</a></li><li data-type='method'><a href="module-models_IconeJz-IconeJz.html#._render#_render">_render</a></li><li data-type='method'><a href="module-models_IconeJz-IconeJz.html#._waitForImportExtraIcons#_waitForImportExtraIcons">_waitForImportExtraIcons</a></li><li data-type='method'><a href="module-models_IconeJz-IconeJz.html#.attributeChangedCallback#attributeChangedCallback">attributeChangedCallback</a></li><li data-type='method'><a href="module-models_IconeJz-IconeJz.html#.changeContentFor#changeContentFor">changeContentFor</a></li><li data-type='method'><a href="module-models_IconeJz-IconeJz.html#.connectedCallback#connectedCallback">connectedCallback</a></li><li data-type='method'><a href="module-models_IconeJz-IconeJz.html#.toggleContent#toggleContent">toggleContent</a></li><li data-type='method'><a href="module-models_IconeJz-IconeJz.html#.undoContentChange#undoContentChange">undoContentChange</a></li></ul></li></ul><h3>Modules</h3><ul><li><a href="module-data_error-messages.html">data/error-messages</a></li><li><a href="module-data_icon-list.html">data/icon-list</a></li><li><a href="module-data_version.html">data/version</a></li><li><a href="module-models_IconeJz.html">models/IconeJz</a></li><li><a href="module-models_IconeJzError.html">models/IconeJzError</a></li></ul><h3>Events</h3><ul><li><a href="module-models_IconeJz.html#~event:iconejz-imported-extra-icons">iconejz-imported-extra-icons</a></li></ul>
+    
+</nav>
+
+<div id="main">
+    
+
+    
+
+
+
+    
+
+
+    <section class="package">
+        <h3> </h3>		
+    </section>
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    <section class="readme usertext">
+        <article><h1 lang="es" align="center">IconeJz</h1>
+<div align="center">
+  <img src="https://img.shields.io/maintenance/yes/2023?color=blueviolet&style=flat-square" alt="Maintenance">
+  <img src="https://img.shields.io/github/license/OWLjz18/iconejz?color=blueviolet&style=flat-square" alt="License">
+  <img src="https://img.shields.io/npm/v/iconejz?color=brightgreen&style=flat-square" alt="NPM Version">
+  <img src="https://img.shields.io/npm/dm/iconejz?color=brightgreen&style=flat-square" alt="NPM Downloads">
+  <a href="https://t.me/iconejz"><img src="https://img.shields.io/badge/Channel-grey?style=flat-square&logo=telegram" alt="Telegram Channel"></a>
+  <a href="https://t.me/iconejz_chat"><img src="https://img.shields.io/badge/Chat-grey?style=flat-square&logo=telegram" alt="Telegram Chat"></a>
+</div>
+<p>I'm an icon system based purely on <strong><em>HTML, CSS and Javascript</em></strong>, I have the functionality of begin able to style my icons through specific attributes, as well as being able to change one icon for another.</p>
+<hr>
+<h3>Index 🔎</h3>
+<ul>
+<li><a href="#gratitude">Gratitude</a> 💌</li>
+<li><a href="#pre-requirements">Pre-Requirements</a> 📝</li>
+<li><a href="#cdn">CDN</a> ⭐</li>
+<li><a href="#instalation">Instalation</a> 📩</li>
+<li><a href="#use">Use</a> 🔎</li>
+<li><a href="#warnings">Warnings</a> 👀</li>
+<li><a href="#javascript-api">Javascript API</a> 🃏</li>
+<li><a href="#importing-custom-icons-to-iconejz">Importing custom icons</a> 👻</li>
+<li><a href="#tools">Tools</a> 🔧</li>
+<li><a href="#documentation">Documentation</a> 📚</li>
+<li><a href="#version">Version</a> 📌</li>
+<li><a href="#changelog">Changelog</a> ⏳</li>
+<li><a href="#author">Author</a> 🦉</li>
+<li><a href="#support">Support</a> 🤝</li>
+<li><a href="#license">License</a> 📃</li>
+</ul>
+<hr>
+<h3 id="gratitude"> Gratitude 💌 </h3>  
+<blockquote>
+<p>First of all, I want to thank God for helping me at all times and when I need it most and my family for supporting me and motivating me when decided to study this career. 💚</p>
+<p>Also, I would like to thank... <a href="./GRATITUDE.md">read more</a></p>
+</blockquote>
+<p><strong><em>Atte:</em> OWLjz18 🦉</strong></p>
+<hr>
+<h3 id="pre-requirements"> Pre-Requirements 📝</h3>
+<p>All the pre-requisites mentioned here are not necessary, only the one you choose to install, unless you prefer to use the CDN.</p>
+<ul>
+<li><a href="https://git-scm.com/">git</a> To clone the repository.</li>
+<li><a href="https://npmjs.com">npm</a> To install the package.</li>
+</ul>
+<hr>
+<h3 id="cdn"> CDN ⭐ </h3>
+<p>To use the CDN and thus not have to install me, you must link the following in each HTML document where you are going to implement me.</p>
+<pre class="prettyprint source lang-html"><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/iconejz@2.0.0/src/iconejz.css&quot;>
+&lt;script src=&quot;https://cdn.jsdelivr.net/npm/iconejz@2.0.0/src/iconejz.js&quot; type=&quot;module&quot;>&lt;/script>
+</code></pre>
+<p>Or if you always want to have the latest version, you can use it like this:</p>
+<pre class="prettyprint source lang-html"><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/iconejz@latest/src/iconejz.css&quot;>
+&lt;script src=&quot;https://cdn.jsdelivr.net/npm/iconejz@latest/src/iconejz.js&quot; type=&quot;module&quot;>&lt;/script>
+</code></pre>
+<p><strong><em>Note:</em></strong> To use a specific version, they just change the version number. And the attribute <code>type=&quot;module&quot;</code> is required.</p>
+<hr>
+<h3 id="instalation"> Instalation 📩 </h3>
+<p>Go to the folder of the project in which you want to install me, open its command line and execute the command corresponding to the option you have chosen in the pre-requisites section:</p>
+<h4>Git</h4>
+<pre class="prettyprint source lang-sh"><code>git clone 'https://github.com/OWLjz18/iconejz.git'
+</code></pre>
+<p>Or as a submodule:</p>
+<pre class="prettyprint source lang-sh"><code>git submodule add 'https://github.com/OWLjz18/iconejz.git'
+</code></pre>
+<h4>NPM</h4>
+<pre class="prettyprint source lang-sh"><code>npm install iconejz
+</code></pre>
+<p>After downloading, they must connect the style sheet and the script in each HTML document where they are going to implement me.</p>
+<p>For example, assuming I'm at the root of your project just like the HTML document, it would look like this:</p>
+<pre class="prettyprint source lang-html"><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;./iconejz/src/iconejz.css&quot;>
+&lt;script src=&quot;./iconejz/src/iconejz.js&quot; type=&quot;module&quot;>&lt;/script>
+</code></pre>
+<hr>
+<h3 id="use"> Use 🔎 </h3>
+<p>After having both resources linked, we proceed to choose an icon, either from the file <a href="./src/iconejz.txt">&quot;iconejz.txt&quot;</a> which is in the <strong>&quot;src&quot;</strong> folder that I contain or my <a href="https://owljz18.github.io/IconeJzDoc/pages/icons.html">website</a>.</p>
+<p>For the example we will use the icon of a hamburger menu, in this case, the following would be its code:</p>
+<pre class="prettyprint source lang-html"><code>&lt;icone-jz is=&quot;menu&quot;>&lt;/icone-jz>
+</code></pre>
+<p>And this would be the result:</p>
+<img width="100px" height="100px" alt="Icon Menu" src="https://raw.githubusercontent.com/OWLjz18/Imagenes/main/IconeJz/ejemplo-0.png" />
+<p>Here is a list with all the available attributes to style my icons or render icon:</p>
+<ul>
+<li><strong>bg</strong> =&gt; Set the icon background color.</li>
+<li><strong>c</strong> =&gt; Set the color for the icon content.</li>
+<li><strong>s</strong> =&gt; Set the size of the icon.</li>
+<li><strong>bd</strong> =&gt; Set the border-radius of the icon.</li>
+<li><strong>m</strong> =&gt; Set the margin for the icon.</li>
+<li><strong>p</strong> =&gt; Set the padding for the icon.</li>
+<li><strong>o</strong> =&gt; Set the opacity of the icon.</li>
+<li><strong>t</strong> =&gt; Set a background color for icons that cannot have a completely transparent background, please read <a href="#warnings">warnings</a> for more information.</li>
+<li><strong>is</strong> =&gt; Specifies which icon should be rendered.</li>
+</ul>
+<p>One thing I would like to mention to you is that if you go to the <em><strong>&quot;iconejz.css&quot;</strong></em> file at the very beginning you will see the variables that are available to style the icons, however, there is one variable that is not found mentioned there, which is <code>--iconejz-t</code>, by using it you can do the same as when you apply the <strong>t</strong> attribute to an icon.</p>
+<hr>
+<h3 id="warnings"> Warnings 👀 </h3>
+<p>Please note that some icons such as <strong>&quot;warning&quot;</strong> cannot have a fully transparent background, as such icons have elements inside that appear to be a hole.</p>
+<p>Let's see an example with the icon mentioned above to understand it better, at first glance we notice that the <strong>&quot;warning&quot;</strong> icon has an exclamation mark in the middle, which simulates a <em>&quot;hole&quot;</em> inside, but suppose we have a container with a green background, so if we give it <code>bg=&quot;transparent&quot;</code> this will happen:</p>
+<img width="110px" height="110px" alt="warning icon without t attribute" src="https://raw.githubusercontent.com/OWLjz18/Imagenes/main/IconeJz/ejemplo-1.png" />
+<p>But if we add the attribute <code>t</code> with the value of the background color, if it would look as expected, here is an example with the attribute <code>t=&quot;green&quot;</code>:</p>
+<img width="110px" height="110px" alt="warning icon with t attribute" src="https://raw.githubusercontent.com/OWLjz18/Imagenes/main/IconeJz/ejemplo-2.png" />
+<p>It is worth mentioning that you can get the same result using the variable <code>--iconejz-t</code> in <strong>CSS</strong>, here is an example assuming your icon has a class called &quot;icon-warning&quot;:</p>
+<pre class="prettyprint source lang-css"><code>.icon-warning {
+  --iconejz-t: green;
+}
+</code></pre>
+<p>Now let's talk a bit about web components, created from the HTMLElement class and with a shadow DOM.</p>
+<p>For tose who may not have used it or read about it, I mean those created by: <code>customElements.define(component-name, ComponentClass);</code> with <code>this.attachShadow({ mode: 'open' })</code>.</p>
+<p>Now that we're in context, I'll tell you that each icon is a web component like the one I described above, so by having a shadow DOM, they won't be able to read the styles of the light DOM.</p>
+<p>Because of this, each icon will see if it is inside a shadow DOM and if it is true, it will automatically export its parts, and if that father element is also within another shadow DOM, the parts of the icon will be exported to that element, the entire process will be done automatically. I comment to take it into account.</p>
+<p>Finally, I remind you again that the <code>type=&quot;module&quot;</code> attribute is required. While the <code>async</code> attribute can lead to strange behavior.</p>
+<p>To give an example of such strange behavior; suppose we have a script that wants to interact with the IconeJz JS API:</p>
+<pre class="prettyprint source lang-html"><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/iconejz@2.0.0/src/iconejz.css&quot;>
+&lt;script src=&quot;https://cdn.jsdelivr.net/npm/iconejz@2.0.0/src/iconejz.js&quot; type=&quot;module&quot; async>&lt;/script>
+&lt;!-- Some files... -->
+&lt;script src=&quot;./something.js&quot; defer>&lt;/script>
+</code></pre>
+<p>And in said script we select the icon of our interest:</p>
+<pre class="prettyprint source lang-js"><code>// file: something.js
+const icon = document.querySelector('icone-jz');
+
+icon.changeContentFor('x');
+</code></pre>
+<p>By simply adding the <code>async</code> attribute to the IconeJz script, the above code could (and most likely will) throw a console error: <code>icon.changeContentFor() is not a function</code>. And this is probably because the IconeJz script has not finished loading before <strong><em>&quot;something.js&quot;</em></strong> file.</p>
+<p>So personally, I recommend you not add it to him.</p>
+<hr>
+<h4 id="javascript-api"> Javascript API 🃏 </h4>
+<p>Regarding the functionalities of an icon in javascript, I have the following methods:</p>
+<ul>
+<li><span id="changeContentFor"><code>changeContentFor(iconName[, { asyncMode }])</code></span> =&gt; Changes the current content of the icon to that specified in <strong><em>&quot;iconName&quot;</em></strong>. This would not be the same as using <code>icon.setAttribute('is', iconName)</code>, since it would change the value of the <strong>&quot;is&quot;</strong> attribute, whereas <strong><em>&quot;changeContentFor&quot;</em></strong> always keeps the same <strong>&quot;is&quot;</strong> attribute and only changes its contents. The <code>asyncMode</code> will specify whether or not this method should return a promise.</li>
+<li><span id="undoContentChange"><code>undoContentChange()</code></span> =&gt; Undoes the change(s) made by the <strong><em>&quot;changeContentFor&quot;</em></strong> method, which returns the icon to its initial content, which points to its first render.</li>
+<li><span id="toggleContent"><code>toggleContent(iconName, { asyncMode })</code></span> =&gt; Alternate the content of the icon by the one specified in <strong><em>&quot;iconName&quot;</em></strong>. The <code>asyncMode</code> will specify whether or not this method should return a promise.</li>
+</ul>
+<p>The <code>asyncMode</code> was created to avoid certain asynchronous problems that the <a href="#importing-custom-icons-to-iconejz">&quot;import custom icons&quot;</a> could bring with it.</p>
+<p>Using it is as simple as in the following example, we will take as reference the <code>menu</code> icon that we created earlier and the extra <code>ship--e</code> icon from the <a href="#importing-custom-icons-to-iconejz">&quot;Importing Custom Icons To IconeJz&quot;</a> section.</p>
+<pre class="prettyprint source lang-js"><code>const icon = document.querySelector('icone-jz[is=&quot;menu&quot;]');
+
+// Without async mode:
+icon.changeContentFor('ship--e');
+console.log(icon.contentName); // menu
+
+// With async mode, promises:
+icon.changeContentFor('ship--e', { asyncMode: true })
+  .then(() => console.log(icon.contentName)); // ship--e
+
+// With async mode, async/await:
+await icon.changeContentFor('ship--e', { asyncMode: true });
+console.log(icon.contentName); // ship--e
+</code></pre>
+<p>And one getter:</p>
+<ul>
+<li><span id="contentName"><code>contentName</code></span> =&gt; returns the name of the icon's content, which is not the same as the value of the <strong><em>&quot;is&quot;</em></strong> attribute. For example:</li>
+</ul>
+<pre class="prettyprint source lang-js"><code>const icon = document.querySelector('[is=&quot;menu&quot;]');
+console.log(icon.contentName); // menu
+
+icon.changeContentFor('x');
+console.log(icon.contentName); // x
+</code></pre>
+<hr>
+<h3 id="importing-custom-icons-to-iconejz"> Importing custom icons to IconeJz 👻 </h3>
+<p>From <strong><em>v2.0.0</em></strong> onwards you can import your own custom icons! I explain how:</p>
+<p>To import your own icons will be as simple as having the following structure in the root of your static files:</p>
+<pre class="prettyprint source lang-txt"><code>/iconejz-extras/
+  iconejz.extras.js
+  iconejz.extras.css
+</code></pre>
+<p><strong><em>Note</em></strong>: Remember that as I work with JS on the web side, if I make a <strong>/something</strong> request, I will be accessing the root of the static files that are being dispatched. So it's very important to keep that in mind.</p>
+<p>The structure of the <strong><em>“iconejz.extras.js”</em></strong> file must be as follows. Something important to note is that the name ends in <code>--e</code> and this is so to avoid conflicts with the internal icons. I recommend that you add that to the name when writing your icons, otherwise when I import your icons, if their names do not end in <code>--e</code> I will be forced to throw an error.</p>
+<pre class="prettyprint source lang-javascript"><code>export default [
+  {
+    name: 'icon-name--e',
+    content: 'Content icon...'
+  }
+];
+</code></pre>
+<p><strong><em>Note:</em></strong> And just in case you're wondering <code>--e</code>, is short for <code>--extra</code>. Now let's just look at an example of this in action:</p>
+<p>For this example, our <strong>iconejz.extras.js</strong> will have this content:</p>
+<pre class="prettyprint source lang-javascript"><code>export default [
+  {
+    name: 'ship--e',
+    content: `
+      &lt;div part=&quot;jz flexjz&quot;>
+        &lt;div part=&quot;jz jz-ship-sg&quot;>&lt;/div>
+      &lt;/div>
+    `
+  }
+];
+</code></pre>
+<p>And in the <strong>iconejz.extras.css</strong> file we will have this:</p>
+<pre class="prettyprint source lang-css"><code>::part(jz-ship-sg) {
+  width: 60%;
+  height: 60%;
+  clip-path: polygon(8% 100%, 0% 82%, 17% 70%, 17% 23%, 33% 23%, 33% 0%, 66% 0%, 66% 23%, 60% 23%, 60% 7%, 39% 7%, 39% 23%, 82% 23%, 82% 70%, 75% 65%, 75% 32%, 24% 32%, 24% 65%, 50% 46.5%, 100% 82%, 92% 100%, 83.5% 100%, 90% 85%, 52.5% 58%, 52.5% 100%, 46% 100%, 46% 58%, 9% 85%, 16% 100%);
+  background-color: var(--iconejz-c);
+}
+</code></pre>
+<p>And just like that, they will have imported their first icon! Now they just have to go to the HTML document and use it like any other:</p>
+<pre class="prettyprint source lang-html"><code>&lt;icone-jz is=&quot;ship--e&quot;>&lt;/icone-jz>
+</code></pre>
+<hr>
+<h3 id="tools">Tools 🔧</h3>
+<h4 id="emmet-snippets">Snippets for Emmet ✨</h4>
+<p>The first thing they need to do is create a <strong><em>&quot;snippets.json&quot;</em></strong> file. And I won't go into much detail here, because the way to do it varies depending on the editor you use.</p>
+<p>But since I have seen that the most used is VSCode and I use Neovim, I will leave the link to both, plus the link to the official documentation of emmet.</p>
+<p>For <a href="https://www.smashingmagazine.com/2021/06/custom-emmet-snippets-vscode/#:~:text=Open%20the%20VS%20Code%20settings,earlier%20and%20press%20%E2%80%9COK%E2%80%9D">VSCode</a>, the <a href="https://github.com/mattn/emmet-vim#adding-custom-snippets">emmet-vim</a> plugin I use in Neovim and the <a href="https://docs.emmet.io/customization/snippets/">official Emmet documentation</a>.</p>
+<p>After you already have your <strong><em>&quot;snippets.json&quot;</em></strong> file (or whatever you want to call it), you can add the following:</p>
+<pre class="prettyprint source lang-json"><code>{
+  &quot;html&quot;: {
+    &quot;snippets&quot;: {
+      &quot;ijz&quot;: &quot;icone-jz[is=${cursor}]&quot;,
+      &quot;ijz-cdn-css&quot;: &quot;link[rel=stylesheet][href=https://cdn.jsdelivr.net/npm/iconejz@${cursor}/src/iconejz.css]&quot;,
+      &quot;ijz-cdn-js&quot;: &quot;script[src=https://cdn.jsdelivr.net/npm/iconejz@${cursor}/src/iconejz.js][type=module]&quot;,
+      &quot;ijz-cdn-all&quot;: &quot;link[rel=stylesheet][href=https://cdn.jsdelivr.net/npm/iconejz@latest/src/iconejz.css]+script[src=https://cdn.jsdelivr.net/npm/iconejz@latest/src/iconejz.js][type=module]&quot;,
+    }
+  },
+  &quot;css&quot;: {
+    &quot;ijzs&quot;: &quot;--iconejz-s:${cursor};&quot;,
+    &quot;ijzc&quot;: &quot;--iconejz-c:${cursor};&quot;,
+    &quot;ijzbg&quot;: &quot;--iconejz-bg:${cursor};&quot;,
+    &quot;ijzbd&quot;: &quot;--iconejz-bd:${cursor};&quot;,
+    &quot;ijzm&quot;: &quot;--iconejz-m:${cursor};&quot;,
+    &quot;ijzp&quot;: &quot;--iconejz-p:${cursor};&quot;,
+    &quot;ijzo&quot;: &quot;--iconejz-o:${cursor};&quot;,
+    &quot;ijzt&quot;: &quot;--iconejz-t:${cursor};&quot;,
+    &quot;ijzcursor&quot;: &quot;--iconejz-cursor:${cursor};&quot;
+  }
+}
+</code></pre>
+<hr>
+<h3 id="documentation"> Documentation 📚 </h3>
+<p>You can get more information and more examples by visiting my <a href="https://owljz18.github.io/IconeJzDoc">website</a>.</p>
+<hr>
+<h3 id="version"> Version 📌 </h3>
+<p>You can quickly tell which version of IconeJz you are using just by adding the <strong>&quot;version&quot;</strong> attribute to any of my icons, that will output a message similar to this on the console: <strong><em>&quot;IconeJz v2.0.0&quot;</em></strong>.</p>
+<pre class="prettyprint source lang-html"><code>&lt;icone-jz is=&quot;menu&quot; version>&lt;/icone-jz>
+</code></pre>
+<hr>
+<h3 id="changelog"> Changelog ⏳ </h3>
+<p>You can see all the changes in the <a href="./CHANGELOG.md">changelog</a>.</p>
+<hr>
+<h3 id="author"> Author 🦉 </h3>  
+<ul>
+<li><em><strong>José Zambrano</strong></em> (<a href="https://github.com/OWLjz18">OWLjz18</a>) =&gt; Project Creator.
+<ul>
+<li>Email =&gt; <a href="mailto:owl.jz18@gmail.com">owl.jz18@gmail.com</a></li>
+<li>Instagram =&gt; <a href="https://instagram.com/owljz18">@owljz18</a></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="support"> Support 🤝 </h3>
+<p>If you like the project you can tell other people about it and give us a star. 🌟</p>
+<p>And if you want to make a donation to monetarily contribute your grain of sand, I can do it via Paypal by clicking <a href="https://www.paypal.me/OWLjz18">here</a>. 💰</p>
+<p>I also have a <a href="https://t.me/iconejz">Telegram Channel</a> where information is sent about new versions and possibly one or another survey. In addition to a <a href="https://t.me/iconejz_chat">Chat</a>, where they can ask about any questions they have.</p>
+<hr>
+<h3 id="license"> License 📃 </h3>
+<p>This project is licensed under an <em>MIT</em> license, please visit the <a href="./LICENSE.md">LICENSE.md</a> file for more information about it.</p></article>
+    </section>
+
+
+
+
+
+
+    
+    
+</div>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.10</a> on Thu Mar 30 2023 16:43:28 GMT-0400 (Venezuela Time) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+
+
+</body>
+</html>
