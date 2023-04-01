@@ -5,8 +5,6 @@
  * @see https://owljz18.github.io/IconeJzDoc
 */
 
-@import url('/iconejz-extras/iconejz.extras.css');
-
 :root {
   --iconejz-s: 50px;
   --iconejz-c: #fff;

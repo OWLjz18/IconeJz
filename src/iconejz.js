@@ -7,6 +7,9 @@
 
 import IconeJz from './models/IconeJz.model.js';
 
+window.IconeJz = IconeJz;
+Object.freeze(IconeJz);
+
 // Arrows:
 
 // • Icon "Arrow Up": //

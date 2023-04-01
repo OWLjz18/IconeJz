@@ -74,8 +74,11 @@ const IconeJz = class extends HTMLElement {
        */
       const IconeJzImportExtraIconsEvent = new CustomEvent('iconejz-imported-extra-icons');
       // eslint-disable-next-line import/no-unresolved,import/no-absolute-path
-      const iconejzExtrasModule = await import('/iconejz-extras/iconejz.extras.js');
+      const iconejzExtrasModule = await import(`${window.location.origin}/iconejz-extras/iconejz.extras.js`);
       const iconsData = iconejzExtrasModule.default;
+      const iconejzExtrasStyleSheet = document.createElement('style');
+      const importCSSRule = `@import url('${window.location.origin}/iconejz-extras/iconejz.extras.css');`;
+      iconejzExtrasStyleSheet.textContent = importCSSRule;
 
       iconsData.forEach((iconObj) => {
         const { name, content } = iconObj;
@@ -86,6 +89,8 @@ const IconeJz = class extends HTMLElement {
 
         IconeJz.addIcon(name, content);
       });
+
+      document.head.append(iconejzExtrasStyleSheet);
 
       window.dispatchEvent(IconeJzImportExtraIconsEvent);
     } catch (err) {
