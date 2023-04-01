@@ -1,5 +1,15 @@
 <i><h1 align="center">👻 IconeJz Changelog 👻</h1></i>
 
+## v2.0.1 - (2023-04-01) ✨
+
+  * **_<[a46e5d8][a46e5d8]>_** fix: fixed CDN issue with importing extra icons
+  * **_<[3062fda][3062fda]>_** Merge pull request #1 from OWLjz18/pre-main
+  * **_<[54875e6][54875e6]>_** docs: added "CHANGELOG.md" file
+
+[a46e5d8]: https://github.com/OWLjz18/IconeJz/commit/a46e5d8
+[3062fda]: https://github.com/OWLjz18/IconeJz/commit/3062fda
+[54875e6]: https://github.com/OWLjz18/IconeJz/commit/54875e6
+
 ## v2.0.0 - (2023-03-31) ✨
 
   * **_<[ead9836][ead9836]>_** refactor!: all code was improved, creating v2
