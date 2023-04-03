@@ -68,17 +68,18 @@ const IconeJz = class extends HTMLElement {
    */
   static async import () {
     try {
-      /**
-       * This event will only be fired if all the "extra icons" are successfully imported.
-       * @event iconejz-imported-extra-icons
-       */
-      const IconeJzImportExtraIconsEvent = new CustomEvent('iconejz-imported-extra-icons');
-      // eslint-disable-next-line import/no-unresolved,import/no-absolute-path
-      const iconejzExtrasModule = await import(`${window.location.origin}/iconejz-extras/iconejz.extras.js`);
+      const currentScript = document.querySelector('[src$="iconejz.js"]');
+      let ijzUrlSubdir = currentScript.dataset.ijzUrlSubdir || '';
+
+      if (ijzUrlSubdir.endsWith('/')) {
+        ijzUrlSubdir = ijzUrlSubdir.slice(0, -1);
+      }
+
+      const baseURL = new URL(ijzUrlSubdir, window.location.origin);
+      const iconejzExtrasModule = await import(`${baseURL}/iconejz-extras/iconejz.extras.js`);
       const iconsData = iconejzExtrasModule.default;
       const iconejzExtrasStyleSheet = document.createElement('style');
-      const importCSSRule = `@import url('${window.location.origin}/iconejz-extras/iconejz.extras.css');`;
-      iconejzExtrasStyleSheet.textContent = importCSSRule;
+      iconejzExtrasStyleSheet.textContent = `@import url('${baseURL}/iconejz-extras/iconejz.extras.css');`;
 
       iconsData.forEach((iconObj) => {
         const { name, content } = iconObj;
@@ -92,6 +93,11 @@ const IconeJz = class extends HTMLElement {
 
       document.head.append(iconejzExtrasStyleSheet);
 
+      /**
+       * This event will only be fired if all the "extra icons" are successfully imported.
+       * @event iconejz-imported-extra-icons
+       */
+      const IconeJzImportExtraIconsEvent = new CustomEvent('iconejz-imported-extra-icons');
       window.dispatchEvent(IconeJzImportExtraIconsEvent);
     } catch (err) {
       if (err instanceof IconeJzError) {

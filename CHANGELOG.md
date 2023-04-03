@@ -1,5 +1,17 @@
 <i><h1 align="center">👻 IconeJz Changelog 👻</h1></i>
 
+## v2.0.2 - (2023-04-02) ✨
+
+  * **_<[b4ce3d0][b4ce3d0]>_** fix: absolute paths with subdir are supported
+  * **_<[b561549][b561549]>_** style: a string concatenation was changed
+  * **_<[4473172][4473172]>_** chore: added ".github" folder to ".npmignore" file
+  * **_<[40ddd37][40ddd37]>_** docs: update changelog
+
+[b4ce3d0]: https://github.com/OWLjz18/IconeJz/commit/b4ce3d0
+[b561549]: https://github.com/OWLjz18/IconeJz/commit/b561549
+[4473172]: https://github.com/OWLjz18/IconeJz/commit/4473172
+[40ddd37]: https://github.com/OWLjz18/IconeJz/commit/40ddd37
+
 ## v2.0.1 - (2023-04-01) ✨
 
   * **_<[a46e5d8][a46e5d8]>_** fix: fixed CDN issue with importing extra icons

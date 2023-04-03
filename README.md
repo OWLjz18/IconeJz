@@ -242,7 +242,11 @@ To import your own icons will be as simple as having the following structure in 
   iconejz.extras.css
 ```
 
-**_Note_**: Remember that as I work with JS on the web side, if I make a **/something** request, I will be accessing the root of the static files that are being dispatched. So it's very important to keep that in mind.
+**_Note_**: Remember that as I work with JS on the web side, if I make a **/something** request, I will be accessing the root of the static files that are being dispatched. So it's very important to keep that in mind. But if your website's files are in a different path than your site's domain, like Github Page does (for example), I'll need to add the `data-ijz-url-subdir` attribute to my script and as a value, add the subdirectory in which the extra files will be found. Here you can see an example of what it would look like with my own website:
+
+``` javascript
+<script src="https://cdn.jsdelivr.net/npm/iconejz@2.0.2/src/iconejz.js" type="module" data-ijz-url-subdir="/IconeJzDoc"></script>
+```
 
 The structure of the **_“iconejz.extras.js”_** file must be as follows. Something important to note is that the name ends in `--e` and this is so to avoid conflicts with the internal icons. I recommend that you add that to the name when writing your icons, otherwise when I import your icons, if their names do not end in `--e` I will be forced to throw an error.
 
