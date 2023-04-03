@@ -1,6 +1,6 @@
 {
   "name": "iconejz",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Icon system based on HTML, CSS and JS.",
   "main": "src/iconejz.css && src/iconejz.js",
   "type": "module",
